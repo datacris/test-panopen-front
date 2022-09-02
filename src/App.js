@@ -1,12 +1,15 @@
-import logo from "./logo.svg";
-import "./App.css";
-import UserList from "./components/dashboard";
+import Dashboard from "./components/dashboard";
+import User from "./components/user";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <UserList />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/user/:userId" element={<User />} />
+        <Route path="/" element={<Dashboard />} />
+      </Routes>
+    </Router>
   );
 }
 

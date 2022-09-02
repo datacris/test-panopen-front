@@ -8,6 +8,7 @@ const Dashboard = () => {
   const [searchField, setSearchField] = useState("");
   const ENDPOINT = "http://localhost:3000/api/v1/users";
 
+  // fetching users from API
   useEffect(() => {
     const fetchUsers = async () => {
       await fetch(ENDPOINT)
@@ -17,6 +18,7 @@ const Dashboard = () => {
     fetchUsers();
   }, []);
 
+  // Filtering users after input search changed
   useEffect(() => {
     const newFilteredUsers = users.filter((user) =>
       user.attributes.name.toLocaleLowerCase().includes(searchField)
@@ -24,6 +26,7 @@ const Dashboard = () => {
     setFilteredUsers(newFilteredUsers);
   }, [users, searchField]);
 
+  // Setting email to filter in user list
   const onSearchChange = (event) => {
     const searchFieldString = event.target.value.toLocaleLowerCase();
     setSearchField(searchFieldString);
