@@ -13,7 +13,7 @@ const userList = ({ filteredUsers }) => {
               className="list-group-item list-group-item-action"
               key={user.id}
             >
-              <div>{`name: ${name} - email: ${email} - role: ${role}`}</div>
+              <div>{`Name: ${name} - Email: ${email} - Role: ${role}`}</div>
             </Link>
           );
         })}
