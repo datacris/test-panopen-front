@@ -1,0 +1,433 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Component User Render 1`] = `
+<div
+  className="jumbotron"
+>
+  <h1
+    className="display-4"
+  >
+    Edit User 
+    1
+    - Demo courses
+  </h1>
+  <hr
+    className="my-4"
+  />
+  <form>
+    <div
+      className="form-group row"
+    >
+      <label
+        className="col-sm-2 col-form-label"
+        htmlFor="name"
+      >
+        Name
+      </label>
+      <div
+        className="col-sm-10"
+      >
+        <input
+          className="form-control"
+          id="name"
+          onChange={[Function]}
+          placeholder="Name"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="form-group row"
+    >
+      <label
+        className="col-sm-2 col-form-label"
+        htmlFor="inputEmail"
+      >
+        Email
+      </label>
+      <div
+        className="col-sm-10"
+      >
+        <input
+          className="form-control"
+          disabled={true}
+          id="inputEmail"
+          placeholder="Email"
+          type="email"
+        />
+      </div>
+    </div>
+    <div
+      className="form-group row"
+    >
+      <label
+        className="col-sm-2 col-form-label"
+        htmlFor="role"
+      >
+        Role
+      </label>
+      <div
+        className="col-sm-10"
+      >
+        <input
+          className="form-control"
+          disabled={true}
+          id="role"
+          placeholder="Role"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="form-group row"
+    >
+      <div
+        className="col-sm-10"
+      >
+        <button
+          className="btn btn-info btn-lg"
+          onClick={[Function]}
+          type="submit"
+        >
+          Save
+        </button>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <button
+            className="btn btn-secondary btn-lg"
+          >
+            Back
+          </button>
+        </a>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`User Component User Render match 1`] = `
+<div
+  className="jumbotron"
+>
+  <h1
+    className="display-4"
+  >
+    Edit User 
+    1
+    - Demo courses
+  </h1>
+  <hr
+    className="my-4"
+  />
+  <form>
+    <div
+      className="form-group row"
+    >
+      <label
+        className="col-sm-2 col-form-label"
+        htmlFor="name"
+      >
+        Name
+      </label>
+      <div
+        className="col-sm-10"
+      >
+        <input
+          className="form-control"
+          id="name"
+          onChange={[Function]}
+          placeholder="Name"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="form-group row"
+    >
+      <label
+        className="col-sm-2 col-form-label"
+        htmlFor="inputEmail"
+      >
+        Email
+      </label>
+      <div
+        className="col-sm-10"
+      >
+        <input
+          className="form-control"
+          disabled={true}
+          id="inputEmail"
+          placeholder="Email"
+          type="email"
+        />
+      </div>
+    </div>
+    <div
+      className="form-group row"
+    >
+      <label
+        className="col-sm-2 col-form-label"
+        htmlFor="role"
+      >
+        Role
+      </label>
+      <div
+        className="col-sm-10"
+      >
+        <input
+          className="form-control"
+          disabled={true}
+          id="role"
+          placeholder="Role"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="form-group row"
+    >
+      <div
+        className="col-sm-10"
+      >
+        <button
+          className="btn btn-info btn-lg"
+          onClick={[Function]}
+          type="submit"
+        >
+          Save
+        </button>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <button
+            className="btn btn-secondary btn-lg"
+          >
+            Back
+          </button>
+        </a>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`User Component User Renders correctly 1`] = `
+<div
+  className="jumbotron"
+>
+  <h1
+    className="display-4"
+  >
+    Edit User 
+    1
+    - Demo courses
+  </h1>
+  <hr
+    className="my-4"
+  />
+  <form>
+    <div
+      className="form-group row"
+    >
+      <label
+        className="col-sm-2 col-form-label"
+        htmlFor="name"
+      >
+        Name
+      </label>
+      <div
+        className="col-sm-10"
+      >
+        <input
+          className="form-control"
+          id="name"
+          onChange={[Function]}
+          placeholder="Name"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="form-group row"
+    >
+      <label
+        className="col-sm-2 col-form-label"
+        htmlFor="inputEmail"
+      >
+        Email
+      </label>
+      <div
+        className="col-sm-10"
+      >
+        <input
+          className="form-control"
+          disabled={true}
+          id="inputEmail"
+          placeholder="Email"
+          type="email"
+        />
+      </div>
+    </div>
+    <div
+      className="form-group row"
+    >
+      <label
+        className="col-sm-2 col-form-label"
+        htmlFor="role"
+      >
+        Role
+      </label>
+      <div
+        className="col-sm-10"
+      >
+        <input
+          className="form-control"
+          disabled={true}
+          id="role"
+          placeholder="Role"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="form-group row"
+    >
+      <div
+        className="col-sm-10"
+      >
+        <button
+          className="btn btn-info btn-lg"
+          onClick={[Function]}
+          type="submit"
+        >
+          Save
+        </button>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <button
+            className="btn btn-secondary btn-lg"
+          >
+            Back
+          </button>
+        </a>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`User Component User Renders correctly match 1`] = `
+<div
+  className="jumbotron"
+>
+  <h1
+    className="display-4"
+  >
+    Edit User 
+    1
+    - Demo courses
+  </h1>
+  <hr
+    className="my-4"
+  />
+  <form>
+    <div
+      className="form-group row"
+    >
+      <label
+        className="col-sm-2 col-form-label"
+        htmlFor="name"
+      >
+        Name
+      </label>
+      <div
+        className="col-sm-10"
+      >
+        <input
+          className="form-control"
+          id="name"
+          onChange={[Function]}
+          placeholder="Name"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="form-group row"
+    >
+      <label
+        className="col-sm-2 col-form-label"
+        htmlFor="inputEmail"
+      >
+        Email
+      </label>
+      <div
+        className="col-sm-10"
+      >
+        <input
+          className="form-control"
+          disabled={true}
+          id="inputEmail"
+          placeholder="Email"
+          type="email"
+        />
+      </div>
+    </div>
+    <div
+      className="form-group row"
+    >
+      <label
+        className="col-sm-2 col-form-label"
+        htmlFor="role"
+      >
+        Role
+      </label>
+      <div
+        className="col-sm-10"
+      >
+        <input
+          className="form-control"
+          disabled={true}
+          id="role"
+          placeholder="Role"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="form-group row"
+    >
+      <div
+        className="col-sm-10"
+      >
+        <button
+          className="btn btn-info btn-lg"
+          onClick={[Function]}
+          type="submit"
+        >
+          Save
+        </button>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <button
+            className="btn btn-secondary btn-lg"
+          >
+            Back
+          </button>
+        </a>
+      </div>
+    </div>
+  </form>
+</div>
+`;

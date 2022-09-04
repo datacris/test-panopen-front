@@ -64,13 +64,12 @@ const User = () => {
       <hr className="my-4"></hr>
       <form>
         <div className="form-group row">
-          <label for="name" className="col-sm-2 col-form-label">
+          <label htmlFor="name" className="col-sm-2 col-form-label">
             Name
           </label>
           <div className="col-sm-10">
             <input
               type="text"
-              g
               className="form-control"
               id="name"
               placeholder="Name"
@@ -80,14 +79,14 @@ const User = () => {
           </div>
         </div>
         <div className="form-group row">
-          <label for="inputPassword3" className="col-sm-2 col-form-label">
+          <label htmlFor="inputEmail" className="col-sm-2 col-form-label">
             Email
           </label>
           <div className="col-sm-10">
             <input
               type="email"
               className="form-control"
-              id="inputPassword3"
+              id="inputEmail"
               placeholder="Email"
               value={user.attributes?.email}
               disabled
@@ -95,7 +94,7 @@ const User = () => {
           </div>
         </div>
         <div className="form-group row">
-          <label for="role" className="col-sm-2 col-form-label">
+          <label htmlFor="role" className="col-sm-2 col-form-label">
             Role
           </label>
           <div className="col-sm-10">
@@ -118,10 +117,9 @@ const User = () => {
             >
               Save
             </button>
-
-            <Link to="/">
-              <button className="btn btn-secondary btn-lg">Back</button>
-            </Link>
+              <Link to="/">
+                <button className="btn btn-secondary btn-lg">Back</button>
+              </Link>
           </div>
         </div>
       </form>

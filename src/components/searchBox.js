@@ -5,9 +5,10 @@ const SearchBox = ({ onChangeHandler }) => {
         <span className="btn btn-info">Search by Email</span>
       </div>
       <input
+        data-testid="searchUser"
         className="form-control"
         type="search"
-        placeholder="email"
+        placeholder="email..."
         onChange={onChangeHandler}
       />
     </div>
