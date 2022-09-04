@@ -8,7 +8,7 @@ const User = () => {
   const params = useParams();
   const ENDPOINT = `http://localhost:3000/api/v1/users/${params.userId}`;
   const [user, setUser] = useState({});
-  const [userName, setUserName] = useState("");
+  const [userName, setUserName] = useState({});
 
   // fetching user from API
   useEffect(() => {
@@ -117,9 +117,9 @@ const User = () => {
             >
               Save
             </button>
-              <Link to="/">
-                <button className="btn btn-secondary btn-lg">Back</button>
-              </Link>
+            <Link to="/">
+              <button className="btn btn-secondary btn-lg">Back</button>
+            </Link>
           </div>
         </div>
       </form>
