@@ -1,4 +1,4 @@
-# PanOpen - Demo Courses
+# PanOpen - Demo Courses - FRONTEND
 
 This is a Front End app for Demo Courses
 
@@ -8,7 +8,7 @@ Open and follow the documentation at [https://github.com/datacris/test-panopen](
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:8000](http://localhost:8000) to view it in your browser.
 
 ### `npm test`
 
