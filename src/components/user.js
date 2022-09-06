@@ -3,6 +3,8 @@ import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import Toastify from "toastify-js";
 import "toastify-js/src/toastify.css";
+import UserEnrollments from "./userEnrollments";
+import UserReadingtimes from "./userReadingtimes";
 
 const User = () => {
   const params = useParams();
@@ -108,6 +110,15 @@ const User = () => {
             />
           </div>
         </div>
+        <UserEnrollments
+          userId={params.userId}
+          enrollments={user.attributes?.enrollments}
+        />
+        <UserReadingtimes
+          userId={params.userId}
+          readingtimes={user.attributes?.readingtimes}
+        />
+
         <div className="form-group row">
           <div className="col-sm-10">
             <button
